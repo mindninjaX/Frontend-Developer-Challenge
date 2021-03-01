@@ -1,0 +1,99 @@
+body {
+    margin: 0% 7em 0% 7em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 4em;
+
+    margi
+
+
+
+    border: 2px red solid;
+}
+
+.logo {
+    height: 7em;
+}
+
+.links > a {
+    margin-left: 2em;
+    color: gray;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+div.links > a:first-child {
+    border-bottom: 3px #FF9A17 solid;
+    padding-bottom: 0.5em;
+}
+
+section {
+    padding-top: 3em;
+    display: flex;
+    flex-direction: column;
+}
+
+section > h1{
+    font-size: 2.5em;
+    color: #78239C;
+    font-weight: 800;
+}
+
+section > hr {
+    width: 3rem;
+    margin-left: 0%;
+    border-color: #FF9A17;
+    border-width: 0.2em;
+    border-style: solid;
+}
+
+section > p:first-of-type {
+    font-weight: 700;
+    color: gray;
+}
+
+section >p > span {
+    color: #FF9A17;
+    font-weight: 800;
+}
+
+.playstore {
+    background-color: #78239C;
+    padding: 0.9rem;
+    border-radius: 0.5rem;
+    width: 9em;
+    height: 2rem;
+
+    display: flex;
+    align-items: center;
+}
+
+.playstore > img {
+    height: 2rem;
+    margin-right: 1rem;
+}
+
+.playstore > p {
+    color: white;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+section > p:last-of-type {
+    color: gray;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.landing {
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+    height: 40em;
+}
