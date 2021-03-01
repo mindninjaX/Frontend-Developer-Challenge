@@ -1,3 +1,9 @@
+@media (max-width:800px) {
+    img#landing {
+      display: none;
+    }
+  }
+
 body {
     margin: 0% 7em 0% 7em;
     font-family: 'Open Sans', sans-serif;
@@ -9,12 +15,6 @@ nav {
     justify-content: space-between;
 
     height: 4em;
-
-    margi
-
-
-
-    border: 2px red solid;
 }
 
 .logo {
@@ -39,10 +39,15 @@ section {
     flex-direction: column;
 }
 
+section > * {
+    padding-bottom: 1.8rem;
+}
+
 section > h1{
     font-size: 2.5em;
     color: #78239C;
     font-weight: 800;
+    padding: 0%;
 }
 
 section > hr {
@@ -51,6 +56,7 @@ section > hr {
     border-color: #FF9A17;
     border-width: 0.2em;
     border-style: solid;
+    padding: 0%;
 }
 
 section > p:first-of-type {
@@ -91,9 +97,10 @@ section > p:last-of-type {
     font-size: 1rem;
 }
 
-.landing {
+#landing {
     position: absolute;
     right: 0%;
     bottom: 0%;
     height: 40em;
+    z-index:0;
 }
